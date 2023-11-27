@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width: 100%;
+    background-color: black;
+}
+
+#inner-wrapper{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-image{
+    background-image: url("../image/burger.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 10px;
+}
+
+.section-padding{
+    padding: 20px 10px;
+}
+
+
+#logoBox{
+    border-radius:50%;
+    background: red;
+    width:150px;
+    height: 150px;
+    margin-top:-100px;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+#logoBox > img{
+    width:100%;
+    height: auto;
+}
+
+#logo-container{
+    background-color: red;
+}
+
+#back-image{
+    background-color: red;
+    background-image: url("../image/footer-food.png");
+    background-repeat: no-repeat;
+    background-size:150px 150px;
+    background-position: 103% 110%;
+}
+
+.image-container{
+    background:url("../heading-bg.png") no-repeat center center/cover;
+    width:450px;
+    height: 60px;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:50px;
+}
+
+.imageoverlay{
+    background:rgba(0, 0, 0, 0.7);
+}
+
+.imageoverlay >h2{
+    color:#fff;
+    font-family: 'Abel', sans-serif;
+
+}
+
+.over-lay{
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+
+table{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 60px;
+
+
+}
+
+table tr{
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+table td{
+    color:#fff;
+}
+
+#footer-food{
+    position: fixed;
+    bottom: 80px;
+    right: 100px
+}
+
+
+h2{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 20px;
+    
+}
+
+
+input{
+    width: 80%;
+    padding: 10px;
+    margin: 30px 30px  30px 90px;
+    box-sizing: border-box;
+    height: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 12px;
+    border-collapse: collapse;
+}
+
+input[type="text"]{
+    color: #fff;
+}
+
+#location{
+    width: 80%;
+    padding: 10px;
+    margin: 30px 30px  30px 90px;
+    box-sizing: border-box;
+    height: 50px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 15px;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+#message{
+    width: 80%;
+    padding: 15px;
+    margin: 30px 30px 30px 90px;
+    box-sizing: border-box;
+    height: 60%;
+    border: 2px solid #fff;
+    background-color: transparent;
+    resize: vertical;
+    color: #fff;
+}
+
+#btn{
+    opacity: 1;
+}
+#submit-btn{
+    background-color: #ffea00;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    width: 80%;
+    padding: 10px;
+    margin: 30px 30px 30px 90px;
+    box-sizing: border-box;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 12px;
+    border-collapse: collapse;
+    list-style-type: none;
+}
+.food-background{
+    background-image: url("food-plate2.jpg");
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+i{
+    width: 30px;
+}
+
+
